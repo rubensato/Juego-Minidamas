@@ -1,107 +1,136 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
     <meta charset="utf-8">
     <title>Juego de MiniDamas</title>
 
-		<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
   <body>
-    <h1>MiniDamas</h1>
 
-    <center>
-				<table bgcolor="#999999">
-					<tr>
-            <td>
-              <table border=0>
-      					<tr>
-      						<td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-      					</tr>
-      					<tr>
-                  <td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      					</tr>
-                <tr>
-      						<td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
-      					</tr>
-      					<tr>
-                  <td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      					</tr>
-                <tr>
-      						<td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-      					</tr>
-                <tr>
-                  <td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      					</tr>
-                <tr>
-      						<td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-      					</tr>
-      					<tr>
-                  <td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      						<td width="60px" Height="60px" bgcolor="#292929"></td>
-                  <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
-      					</tr>
-              </table>
-            </td>
-          </tr>
-				</table>
-        <br>
-        <input type="button" value="Nueva Partida" onclick="" style="border:0;height:35px;width:250px;font-size:20px;font-weight:bold;color:#ffffff;background-color:#4DA4E1;">
-        <br>
-		</center>
+    <!--
+    <header id="main-header">
+      <div class="container">
+        <h1>Mini Damas</h1>
+      </div>
+    </header>
+    -->
+
+    <nav id="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="#">Mini Damas</a></li>
+          <li><a href="#"></a>DAMAS</li>
+          <li><a href="#"></a>QU&Eacute; ES?</li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="juego-damas">
+      <div class="container">
+        <center>
+    				<table bgcolor="#999999">
+    					<tr>
+                <td>
+                  <table border=0>
+          					<tr>
+          						<td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+          					</tr>
+          					<tr>
+                      <td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          					</tr>
+                    <tr>
+          						<td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"><img src="./images/FichaGris.png"></td>
+          					</tr>
+          					<tr>
+                      <td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          					</tr>
+                    <tr>
+          						<td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+          					</tr>
+                    <tr>
+                      <td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          					</tr>
+                    <tr>
+          						<td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+          					</tr>
+          					<tr>
+                      <td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          						<td width="60px" Height="60px" bgcolor="#292929"></td>
+                      <td width="60px" Height="60px" bgcolor="#F7F7F7"><img src="./images/FichaRojo.png"></td>
+          					</tr>
+                  </table>
+                </td>
+              </tr>
+    				</table>
+            <br>
+            <input type="button" value="Nueva Partida" onclick="" style="border:0;height:35px;width:250px;font-size:20px;font-weight:bold;color:#ffffff;background-color:#4DA4E1;">
+            <br>
+    		</center>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Copyright $&copy; 2021 by Rub&eacute;n Sato</p>
+    </footer>
+
+
+
   </body>
 </html>
