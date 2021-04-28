@@ -15,12 +15,14 @@ body{
 #main-header{
   background-color: #D4707A;
   color: #fff;
+  padding: 5px;
 }
 
 #navbar{
   background-color: #D4707A;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding: 1px;
 }
 
 #navbar ul{
@@ -46,7 +48,7 @@ body{
 #donde-estoy{
   background-color: #EFEFEF;
   font-size: 14px;
-  padding: 0px 10px;
+  padding: 0px 20px;
   margin-bottom: 40px;
 }
 
@@ -66,7 +68,8 @@ body{
 }
 
 #tablero-damas{
-    borde: 0;
+  border-collapse: collapse;
+  border: 0;
 }
 
 #casilla-blanca{
