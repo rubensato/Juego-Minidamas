@@ -8,17 +8,14 @@ body{
 }
 
 .container{
-  width: 80%;
+  width: 85%;
   margin: auto;
-  overflow: hidden;
 }
 
-/*
 #main-header{
   background-color: #D4707A;
   color: #fff;
 }
-*/
 
 #navbar{
   background-color: #D4707A;
@@ -31,12 +28,12 @@ body{
   list-style: none;
 }
 
-#navbar li{
-  display: inline;
-}
-
 #navbar li:first-child{
   font-size: 30px;
+}
+
+#navbar li{
+  display: inline;
 }
 
 #navbar a{
@@ -46,10 +43,72 @@ body{
   padding-right: 15px;
 }
 
+#donde-estoy{
+  background-color: #EFEFEF;
+  font-size: 14px;
+  padding: 0px 10px;
+  margin-bottom: 40px;
+}
+
+#donde-estoy a{
+  color: #000;
+  font-style: bold;
+  text-decoration: none;
+}
+
+#juego-damas{
+ margin-bottom: 20px;
+}
+
+#tablero-marco{
+    background-color: #999;
+    margin-bottom: 20px;
+}
+
+#tablero-damas{
+    borde: 0;
+}
+
+#casilla-blanca{
+  width: 60px;
+  height: 60px;
+  background-color: #F7F7F7;
+}
+
+#casilla-negra{
+  width: 60px;
+  height: 60px;
+  background-color: #292929;
+}
+
+#boton-nueva-partida {
+  height: 35px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color:#4DA4E1;
+  border: 0;
+  border-radius: 5px;
+}
+
+#juego-instrucciones{
+  background-color: #EFEFEF;
+  font-size: 14px;
+  line-height: 1.4em;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+#juego-instrucciones a{
+  color: #000;
+  font-style: bold;
+  text-decoration: none;
+}
+
 #main-footer{
   background: #333;
   color: #fff;
   text-align: center;
   padding: 30px;
-  margin-top: 40px;
 }
